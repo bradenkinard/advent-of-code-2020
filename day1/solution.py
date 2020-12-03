@@ -3,7 +3,7 @@ from itertools import combinations
 from math import prod
 
 def main(args):
-    data = [int(line) for line in open(args.filepath, "r").read().split("\n")[0:-1]]
+    data = [int(line) for line in open(args.filepath, "r").read().split("\n")]
     tuples = combinations(data, args.r)
     answer = f"There are no {args.r} values that sum to 2020."
     for tup in tuples:

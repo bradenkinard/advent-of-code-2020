@@ -24,7 +24,7 @@ def check_password_part2(policy_indices, policy_letter, password):
     return passed
 
 def main(args):
-    data = [line for line in open(args.filepath, "r").read().split("\n")][0:-1]
+    data = [line for line in open(args.filepath, "r").read().split("\n")]
     checks_part1 = []
     checks_part2 = []
     for line in data:
