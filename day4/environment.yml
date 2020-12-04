@@ -1,0 +1,6 @@
+name: advent_day4
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+
